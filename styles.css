@@ -1,24 +1,93 @@
 body {
     font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-header, footer {
+header {
     text-align: center;
-    padding: 1em;
     background-color: #333;
     color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
 }
 
 main {
     padding: 1em;
+    text-align: center;
 }
 
-ul {
-    list-style-type: none;
+.contact-info p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.services {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 600px;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.services ul {
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-li {
+.services li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
     padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.services li:last-child {
+    border-bottom: none;
+}
+
+.service-name {
+    font-weight: bold;
+}
+
+.service-price {
+    color: #333;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 1em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
